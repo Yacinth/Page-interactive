@@ -10,8 +10,8 @@ footer[0].addEventListener("click", function () {
 
 ///////////////EXO 2//////////////////
 
-let navBar = document.getElementById("navbarHeader")
-let navBarBtn = document.getElementsByClassName("navbar-toggler")
+let navBar = document.getElementById("navbarHeader");
+let navBarBtn = document.getElementsByClassName("navbar-toggler");
 
 navBarBtn[0].addEventListener("click", function () {
     navBar.classList.toggle("collapse");
@@ -19,11 +19,11 @@ navBarBtn[0].addEventListener("click", function () {
 })
 
 ///////////////EXO 3//////////////////
-let cardText = document.getElementsByClassName("card-text")
-let editBtn = document.getElementsByClassName("btn-outline-secondary")
+let cardText = document.getElementsByClassName("card-text");
+let editBtn = document.getElementsByClassName("btn-outline-secondary");
 
-console.log(cardText)
-console.log(editBtn)
+console.log(cardText);
+console.log(editBtn);
 
 editBtn[0].addEventListener("click", function () {
     cardText[0].style.color = "red"
@@ -31,11 +31,19 @@ editBtn[0].addEventListener("click", function () {
 
 //EXO 4
 
-let secondCardTextColor = cardText[1].style
+let secondCardTextColor = cardText[1].style;
 
 editBtn[1].addEventListener("click", function () {
     secondCardTextColor.color === "green" ? secondCardTextColor.color = '' : secondCardTextColor.color = 'green'
 })
 
 
-///////////////EXO 4//////////////////
+///////////////EXO 5//////////////////
+let header = document.getElementsByTagName("header")[0]
+let bootstrap = document.styleSheets[0]
+
+console.log(header);
+header.addEventListener("dblclick", function () {
+    bootstrap.disabled === true ? bootstrap.disabled = false : bootstrap.disabled = true;
+    console.log(`coucou`)
+})
