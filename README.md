@@ -14,6 +14,4 @@ $ git@github.com:Yacinth/Page-interactive.git
 
 ## Index
 
-https://yacinth.github.io/Page-interactive/.
-
 ### A tout de suite les correcteurs <3
