@@ -14,9 +14,9 @@ $ git@github.com:Yacinth/Page-interactive.git
 
 ## Index
 
-Sorry pas de version en prod, ça ne prend pas l'html mais le .md ... sais tu ce qui cloche ?
+Sorry pas de version en prod, j'ai créé la project page au début et mtn c'est set sur le .md
 https://yacinth.github.io/Page-interactive/.
 
-D'habitude ça fonctionne trés bien !
+saurais tu résoudre ce soucis ?
 
 ### A tout de suite les correcteurs <3
