@@ -9,15 +9,33 @@ footer[0].addEventListener("click", function () {
 })
 
 ///////////////EXO 2//////////////////
+
 let navBar = document.getElementById("navbarHeader")
-let button = document.getElementsByClassName("navbar-toggler")
+let navBarBtn = document.getElementsByClassName("navbar-toggler")
 
-console.log(navBar)
-console.log(button)
-
-button[0].addEventListener("click", function () {
+navBarBtn[0].addEventListener("click", function () {
     navBar.classList.toggle("collapse");
 
 })
 
-//hamburger[0].elementDuDOM.collapse.toggle("nomDeLaClasse")
+///////////////EXO 3//////////////////
+let cardText = document.getElementsByClassName("card-text")
+let editBtn = document.getElementsByClassName("btn-outline-secondary")
+
+console.log(cardText)
+console.log(editBtn)
+
+editBtn[0].addEventListener("click", function () {
+    cardText[0].style.color = "red"
+})
+
+//EXO 4
+
+let secondCardTextColor = cardText[1].style
+
+editBtn[1].addEventListener("click", function () {
+    secondCardTextColor.color === "green" ? secondCardTextColor.color = '' : secondCardTextColor.color = 'green'
+})
+
+
+///////////////EXO 4//////////////////
