@@ -10,9 +10,13 @@
 
 ```
 $ git@github.com:Yacinth/Page-interactive.git
-
 ```
 
 ## Index
+
+Sorry pas de version en prod, ça ne prend pas l'html mais le .md ... sais tu ce qui cloche ?
+https://yacinth.github.io/Page-interactive/.
+
+D'habitude ça fonctionne trés bien !
 
 ### A tout de suite les correcteurs <3
